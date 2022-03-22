@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Box, TextField, MenuItem } from '@mui/material'
 
 const SelectCode = () => {
-  const [country, setcountry] = React.useState("");
+  const [country, setcountry] = useState("");
 
   console.log(country);
 
@@ -14,11 +14,14 @@ const SelectCode = () => {
     <Box width="250px">
       <TextField
         label="Select Country"
+        // this will make it select field
         select
         value={country}
         onChange={handleChange}
+        // it will assign full widht
         fullWidth
         helperText="Please select your country"
+        // this will show field as error
         error
       >
         <MenuItem value='IN'>India</MenuItem>

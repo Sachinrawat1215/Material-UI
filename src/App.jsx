@@ -10,6 +10,7 @@ import MakeStyleCode from './components/MakeStyleCode';
 import ToggleButtonCode from './components/ToggleButtonCode';
 import TextFieldCode from './components/TextFieldCode';
 import SelectCode from './components/SelectCode';
+import RadioButtonCode from './components/RadioButtonCode';
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
                 <ToggleButtonCode />
                 <TextFieldCode />
                 <SelectCode />
+                <RadioButtonCode />
             </Stack>
         </Container>
     )
