@@ -11,6 +11,7 @@ import ToggleButtonCode from './components/ToggleButtonCode';
 import TextFieldCode from './components/TextFieldCode';
 import SelectCode from './components/SelectCode';
 import RadioButtonCode from './components/RadioButtonCode';
+import CheckBoxCode from './components/CheckBoxCode';
 
 const App = () => {
 
@@ -26,6 +27,7 @@ const App = () => {
                 <TextFieldCode />
                 <SelectCode />
                 <RadioButtonCode />
+                <CheckBoxCode />
             </Stack>
         </Container>
     )
